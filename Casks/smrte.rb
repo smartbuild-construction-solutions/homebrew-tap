@@ -4,12 +4,12 @@ cask "smrte" do
 
   on_macos do
     on_intel do
-      sha256 "13112386c0ab198de161ea0c876e55bff36b378a2c66b38efe5df28cf7dae0f8"
+      sha256 "d1e8353fc9bcbfa81f1c3be7161df06372e0e01dbe7106e6e53b96b943a772f2"
       url "https://github.com/smartbuild-construction-solutions/smrte-cli/releases/download/v#{version}/smrte_#{version}_darwin_amd64.tar.gz",
         verified: "github.com/smartbuild-construction-solutions/smrte-cli"
     end
     on_arm do
-      sha256 "d92dec182c36ccb6f998b9654773cdb0330e01770aea7a240690a7ed039d3409"
+      sha256 "061792cde07b5b969b824614de440a70119f5d6e960701d8f6bd57063bccf756"
       url "https://github.com/smartbuild-construction-solutions/smrte-cli/releases/download/v#{version}/smrte_#{version}_darwin_arm64.tar.gz",
         verified: "github.com/smartbuild-construction-solutions/smrte-cli"
     end
@@ -17,12 +17,12 @@ cask "smrte" do
 
   on_linux do
     on_intel do
-      sha256 "69012fac7caa87af201df9fcde4485d71d0aaf8ddf9a2b1a1de01a5f346c22ad"
+      sha256 "f137e9a97981965ca73ebd8b9e1229c896564166b614f06c842631f5a642799c"
       url "https://github.com/smartbuild-construction-solutions/smrte-cli/releases/download/v#{version}/smrte_#{version}_linux_amd64.tar.gz",
         verified: "github.com/smartbuild-construction-solutions/smrte-cli"
     end
     on_arm do
-      sha256 "168150778b404a22e6027002fa14ed2edd56233098c26d45df772269121432d9"
+      sha256 "e364479b626680b8790e425f8da18089e42110c9185a90325cf86a7a6e5a7d80"
       url "https://github.com/smartbuild-construction-solutions/smrte-cli/releases/download/v#{version}/smrte_#{version}_linux_arm64.tar.gz",
         verified: "github.com/smartbuild-construction-solutions/smrte-cli"
     end
